@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Marked Men Armor Recipes __________-->
+    <!-- Tribal armor is deliberately absent - it has no clean NCR/Legion parent to rebuild from. -->
+
+    <!-- Marked Trooper Armor - from any ruined NCR trooper outfit -->
+
+    <RecipeDef>
+        <defName>FCP_Recipe_Craft_Marked_Trooper_Armor</defName>
+        <label>craft marked trooper armor</label>
+        <description>Rebuild a ruined NCR trooper outfit into marked trooper armor using scrap reinforcement techniques scavenged from the Divide.</description>
+        <jobString>Rebuilding armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>9000</workAmount>
+        <workSkill>Crafting</workSkill>
+        <researchPrerequisite>FCP_Research_MarkedMen_Armor</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_NCR_Trooper_Fatigues</li>
+                        <li>FCP_Apparel_NCR_Trooper_Armor</li>
+                        <li>FCP_Apparel_NCR_Trooper_Vest</li>
+                        <li>FCP_Apparel_NCR_Trooper_Bandoleer_Armor</li>
+                        <li>FCP_Apparel_NCR_Trooper_Mantle_Armor</li>
+                        <li>FCP_Apparel_NCR_Trooper_MP_Uniform</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Marked_Trooper_Armor>1</FCP_Apparel_Marked_Trooper_Armor>
+        </products>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <!-- Marked Patrol Armor - from NCR Ranger Patrol Armor specifically -->
+
+    <RecipeDef>
+        <defName>FCP_Recipe_Craft_Marked_Patrol_Armor</defName>
+        <label>craft marked patrol armor</label>
+        <description>Rebuild an NCR Ranger patrol armor into marked patrol armor using scrap reinforcement techniques scavenged from the Divide.</description>
+        <jobString>Rebuilding armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>9500</workAmount>
+        <workSkill>Crafting</workSkill>
+        <researchPrerequisite>FCP_Research_MarkedMen_Armor</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_NCR_Ranger_Patrol_Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>25</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Marked_Patrol_Armor>1</FCP_Apparel_Marked_Patrol_Armor>
+        </products>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+    </RecipeDef>
+
+    <!-- Marked Scout Armor - from any Legion armor tier -->
+
+    <RecipeDef>
+        <defName>FCP_Recipe_Craft_Marked_Scout_Armor</defName>
+        <label>craft marked scout armor</label>
+        <description>Rebuild ruined Legion armor into marked scout armor using scrap reinforcement techniques scavenged from the Divide.</description>
+        <jobString>Rebuilding armor.</jobString>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <workAmount>9000</workAmount>
+        <workSkill>Crafting</workSkill>
+        <researchPrerequisite>FCP_Research_MarkedMen_Armor</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>6</Crafting>
+        </skillRequirements>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>FCP_Apparel_Legion_Recruit_Armor</li>
+                        <li>FCP_Apparel_Legion_Veteran_Armor</li>
+                        <li>FCP_Apparel_Legion_Prime_Armor</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Steel</li>
+                    </thingDefs>
+                </filter>
+                <count>20</count>
+            </li>
+        </ingredients>
+        <products>
+            <FCP_Apparel_Marked_Scout_Armor>1</FCP_Apparel_Marked_Scout_Armor>
+        </products>
+        <recipeUsers>
+            <li>FCP_Production_Armor_Workbench</li>
+        </recipeUsers>
+    </RecipeDef>
+
+</Defs>

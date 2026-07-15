@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Marked Men Armor __________-->
+    <!-- Battered remnants of NCR/Legion gear worn since the day the Divide burned. Faction-exclusive: never crafted by anyone else, never generated in general loot/trade. -->
+
+    <!-- Marked Trooper Armor -->
+
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
+        <defName>FCP_Apparel_Marked_Trooper_Armor</defName>
+        <label>marked trooper armor</label>
+        <description>Ruined NCR trooper armor, worn by a soldier who never left the Divide. Patched over the years with roadsigns, license plates, and whatever scrap could be lashed to the plating. It still holds together, barely.</description>
+        <generateCommonality>0</generateCommonality>
+        <thingSetMakerTags Inherit="False" />
+        <recipeMaker IsNull="True" />
+        <graphicData>
+            <texPath>Armor/Marked_Trooper_Armor/FCP_Marked_Trooper_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>160</MaxHitPoints>
+            <WorkToMake>8700</WorkToMake>
+            <Mass>4.2</Mass>
+            <ArmorRating_Sharp>0.62</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.23</ArmorRating_Heat>
+            <Insulation_Cold>7</Insulation_Cold>
+            <Insulation_Heat>5</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <costList>
+            <Steel>30</Steel>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Armor/Marked_Trooper_Armor/FCP_Marked_Trooper_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_MarkedMen_Apparel</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Marked Patrol Armor -->
+
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
+        <defName>FCP_Apparel_Marked_Patrol_Armor</defName>
+        <label>marked patrol armor</label>
+        <description>Ranger patrol armor scavenged from the Divide's dead. The wear tells the story on its own: scorched plating, sun-bleached straps, and the ghost of an NCR bear stencil still visible under the grime.</description>
+        <generateCommonality>0</generateCommonality>
+        <thingSetMakerTags Inherit="False" />
+        <recipeMaker IsNull="True" />
+        <graphicData>
+            <texPath>Armor/Marked_Patrol_Armor/FCP_Marked_Patrol_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>185</MaxHitPoints>
+            <WorkToMake>9200</WorkToMake>
+            <Mass>5.2</Mass>
+            <ArmorRating_Sharp>0.75</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.33</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.26</ArmorRating_Heat>
+            <Insulation_Cold>8</Insulation_Cold>
+            <Insulation_Heat>6</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <costList>
+            <Steel>40</Steel>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Armor/Marked_Patrol_Armor/FCP_Marked_Patrol_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_MarkedMen_Apparel</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Marked Scout Armor -->
+
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
+        <defName>FCP_Apparel_Marked_Scout_Armor</defName>
+        <label>marked scout armor</label>
+        <description>Legion armor cobbled back together after the Divide tore it apart. Nails and scrap metal have been driven into the leather in rough imitation of a legate's regalia, an old habit from soldiers who no longer remember why they kept it up.</description>
+        <generateCommonality>0</generateCommonality>
+        <thingSetMakerTags Inherit="False" />
+        <recipeMaker IsNull="True" />
+        <graphicData>
+            <texPath>Armor/Marked_Scout_Armor/FCP_Marked_Scout_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>160</MaxHitPoints>
+            <WorkToMake>8700</WorkToMake>
+            <Mass>4.2</Mass>
+            <ArmorRating_Sharp>0.62</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.28</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.24</ArmorRating_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+            <Insulation_Heat>10</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <costList>
+            <Steel>30</Steel>
+        </costList>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Armor/Marked_Scout_Armor/FCP_Marked_Scout_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_MarkedMen_Apparel</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Marked Tribal Armor -->
+
+    <ThingDef ParentName="FCP_Armor_Machineable_Base">
+        <defName>FCP_Apparel_Marked_Tribal_Armor</defName>
+        <label>marked tribal armor</label>
+        <description>Not NCR, not Legion — this armor was built from nothing but the Divide itself. Layered hide, roadsign scrap, and rebar plating lashed together by hands that no longer remember which army they used to answer to. There is no clean version of this armor to reclaim; it was never anything but wreckage.</description>
+        <generateCommonality>0</generateCommonality>
+        <thingSetMakerTags Inherit="False" />
+        <graphicData>
+            <texPath>Armor/Marked_Tribal_Armor/FCP_Marked_Tribal_Armor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>175</MaxHitPoints>
+            <WorkToMake>9200</WorkToMake>
+            <Mass>4.8</Mass>
+            <ArmorRating_Sharp>0.68</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.28</ArmorRating_Heat>
+            <Insulation_Cold>9</Insulation_Cold>
+            <Insulation_Heat>7</Insulation_Heat>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <costList>
+            <Steel>40</Steel>
+        </costList>
+        <recipeMaker IsNull="True" />
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Legs</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Armor/Marked_Tribal_Armor/FCP_Marked_Tribal_Armor</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>FCP_MarkedMen_Apparel</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Marked Tribal Helmet -->
+
+    <ThingDef ParentName="FCP_Armor_Helmet_Makeable_Base">
+        <defName>FCP_Apparel_Marked_Tribal_Helmet</defName>
+        <label>marked tribal helmet</label>
+        <description>A crude helmet built from scrap and hide, the closest thing to a legate's helm that could be scavenged from the Divide's ruin. Whatever it was salvaged from is long past recognizing.</description>
+        <generateCommonality>0</generateCommonality>
+        <thingSetMakerTags Inherit="False" />
+        <graphicData>
+            <texPath>Armor/Marked_Tribal_Helmet/FCP_Marked_Tribal_Helmet</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <WorkToMake>3000</WorkToMake>
+            <MaxHitPoints>80</MaxHitPoints>
+            <Mass>0.9</Mass>
+            <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.22</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.20</ArmorRating_Heat>
+            <Insulation_Heat>2</Insulation_Heat>
+            <EquipDelay>1.5</EquipDelay>
+        </statBases>
+        <costList>
+            <Steel>10</Steel>
+        </costList>
+        <recipeMaker IsNull="True" />
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Armor/Marked_Tribal_Helmet/FCP_Marked_Tribal_Helmet</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>FCP_MarkedMen_Apparel</li>
+            </tags>
+        </apparel>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

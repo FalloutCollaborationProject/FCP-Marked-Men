@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Marked Man Raid __________-->
+
+    <IncidentDef>
+        <defName>FCP_Incident_MarkedManRaid</defName>
+        <label>Marked Men raid</label>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>FCP.Factions.IncidentWorker_BiomeRestrictedFactionRaid</workerClass>
+        <baseChance>1.5</baseChance>
+        <category>ThreatBig</category>
+        <pointsScaleable>true</pointsScaleable>
+        <tale>Raid</tale>
+        <ignoreRecentSelectionWeighting>true</ignoreRecentSelectionWeighting>
+        <modExtensions>
+            <li Class="FCP.Factions.BiomeRestrictedRaidExtension">
+                <allowedBiomes>
+                    <li>ExtremeDesert</li>
+                </allowedBiomes>
+                <targetFaction>FCP_Faction_MarkedMen</targetFaction>
+            </li>
+        </modExtensions>
+    </IncidentDef>
+
+</Defs>

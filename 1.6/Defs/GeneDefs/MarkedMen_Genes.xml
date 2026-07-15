@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Marked Men Genes __________-->
+    <!-- Reflects the wiki's account of an enhanced regenerative ability beyond ordinary ghoulification, fueled by proximity to the Divide's radiation, and their unusually large HP pool relative to other wasteland enemies. -->
+
+    <GeneDef>
+        <defName>FCP_Gene_MarkedMan_Regeneration</defName>
+        <label>divide-scarred regeneration</label>
+        <description>Years bathing in the Divide's radiation fused into something stranger than ordinary ghoulification: wounds close faster, and the body simply endures more punishment before it gives out.</description>
+        <iconPath>UI/Icons/Genes/FCP_Gene_Ghoul_Toxic_Heal</iconPath>
+        <displayCategory>Miscellaneous</displayCategory>
+        <displayOrderInCategory>501</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>0</biostatMet>
+        <statOffsets>
+            <InjuryHealingFactor>0.20</InjuryHealingFactor>
+            <PainShockThreshold>0.10</PainShockThreshold>
+        </statOffsets>
+    </GeneDef>
+
+</Defs>

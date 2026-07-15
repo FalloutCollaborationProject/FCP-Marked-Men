@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Marked Man Xenotype __________-->
+
+    <XenotypeDef>
+        <defName>FCP_Xenotype_MarkedMan</defName>
+        <label>marked man</label>
+        <iconPath>FCP_Ghoul/Heads/Male_Ghoul_Average_Normal_south</iconPath>
+        <description>Once soldiers of the NCR or Legion, these men and women were caught in the Divide when its storms tore the world apart. Prolonged exposure to the irradiated fury of the courier's mile left them ghoulified, hollowed out, and hostile to anyone who still wears a banner they no longer remember serving.</description>
+        <descriptionShort>Ghoulified NCR and Legion soldiers, twisted by the Divide's storms and hostile to all.</descriptionShort>
+        <inheritable>true</inheritable>
+        <genes>
+            <li>Sterile</li>
+            <li>Beard_NoBeardOnly</li>
+            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_ToxicHealing</li>
+            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_Ghoul_Skin_Green</li>
+            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_Ghoul_Skin_Peach</li>
+            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_Ghoul_Skin_Yellow</li>
+            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_Ghoul_Skin_Pink</li>
+            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_Ghoul_Skin</li>
+            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_Ghoul_LongLived</li>
+            <li>FCP_Gene_MarkedMan_Regeneration</li>
+        </genes>
+    </XenotypeDef>
+
+</Defs>

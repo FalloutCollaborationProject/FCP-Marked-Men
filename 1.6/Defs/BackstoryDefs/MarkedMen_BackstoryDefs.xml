@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Marked Men Backstories (Adulthood) __________-->
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_NCR_Trooper</defName>
+        <identifier>FCP_Backstory_MarkedMan_NCR_Trooper</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Trooper</title>
+        <titleShort>Marked Trooper</titleShort>
+        <description>[PAWN_nameDef] wore NCR fatigues on the day the storm took the Divide apart. The uniform is rags now, and the chain of command it once answered to is a sound half-remembered, like a bugle call from underwater.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Hunter</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_NCR_Ranger</defName>
+        <identifier>FCP_Backstory_MarkedMan_NCR_Ranger</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Ranger</title>
+        <titleShort>Marked Ranger</titleShort>
+        <description>An NCR Ranger who went into the Divide on Ulysses' trail and never came out. What's left moves the way a Ranger moves, sights the way a Ranger sights, and remembers none of why.</description>
+        <skillGains>
+            <Shooting>8</Shooting>
+            <Melee>4</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Marauder</li>
+        </spawnCategories>
+        <possessions />
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_Legion_Recruit</defName>
+        <identifier>FCP_Backstory_MarkedMan_Legion_Recruit</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Recruit</title>
+        <titleShort>Marked Recruit</titleShort>
+        <description>[PAWN_nameDef] marched under Caesar's banner into the Divide, one more body added to a war neither army walked away from. Legion discipline kept the body upright long after the storms burned the rest away.</description>
+        <skillGains>
+            <Melee>7</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Ravager</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_Legion_Veteran</defName>
+        <identifier>FCP_Backstory_MarkedMan_Legion_Veteran</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Veteran</title>
+        <titleShort>Marked Veteran</titleShort>
+        <description>A Legion veteran of a dozen campaigns, undone by a war with no fronts and no enemy to break. The Divide gave [PAWN_nameDef] a new kind of endurance, and took everything else in trade.</description>
+        <skillGains>
+            <Melee>9</Melee>
+            <Shooting>3</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Ravager</li>
+        </spawnCategories>
+        <possessions />
+        <forcedTraits>
+            <Bloodlust>0</Bloodlust>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_Courier</defName>
+        <identifier>FCP_Backstory_MarkedMan_Courier</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Escort</title>
+        <titleShort>Marked Escort</titleShort>
+        <description>Hired muscle for a courier run through the Long 15 that ended in fire and static. [PAWN_nameDef] doesn't remember the cargo, or the client, or why the sky came apart. Only the running, and then the long stillness after.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>5</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Hunter</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_Deserter</defName>
+        <identifier>FCP_Backstory_MarkedMan_Deserter</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Deserter</title>
+        <titleShort>Marked Deserter</titleShort>
+        <description>[PAWN_nameDef] slipped away from their unit before the Divide split open, hoping to disappear into the wasteland instead of into the ground. The storms found them anyway. Desertion, it turns out, was never far enough.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Marauder</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_Scavenger</defName>
+        <identifier>FCP_Backstory_MarkedMan_Scavenger</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Quartermaster</title>
+        <titleShort>Marked Quartermaster</titleShort>
+        <description>Not a fighter, once. [PAWN_nameDef] kept the supply lines running for whichever army was paying that season, until the Divide erased the difference between quartermaster and casualty.</description>
+        <skillGains>
+            <Crafting>4</Crafting>
+            <Melee>3</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Scout</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_Prisoner</defName>
+        <identifier>FCP_Backstory_MarkedMan_Prisoner</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Prisoner</title>
+        <titleShort>Marked Prisoner</titleShort>
+        <description>Captured somewhere between the NCR line and the Legion's, [PAWN_nameDef] never learned which side held the cage. It didn't matter once the storm rolled in and both sides stopped being sides at all.</description>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>2</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Scout</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_Marksman</defName>
+        <identifier>FCP_Backstory_MarkedMan_Marksman</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Marksman</title>
+        <titleShort>Marked Marksman</titleShort>
+        <description>A sharpshooter who held the line at the Divide's edge, picking off targets long before they closed the distance. [PAWN_nameDef] still sights down a rifle the way they were trained to, out of habit more than intent.</description>
+        <skillGains>
+            <Shooting>9</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Hunter</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_LongRifle</defName>
+        <identifier>FCP_Backstory_MarkedMan_LongRifle</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Long Rifle</title>
+        <titleShort>Marked Long Rifle</titleShort>
+        <description>[PAWN_nameDef] spent the war watching the supply route through a scope, reporting movement no one above them heeded until it was too late. The habit of watching from a distance outlived the chain of command that trained it into them.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Hunter</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_HeavyGunner</defName>
+        <identifier>FCP_Backstory_MarkedMan_HeavyGunner</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Heavy Gunner</title>
+        <titleShort>Marked Heavy Gunner</titleShort>
+        <description>Once part of an NCR heavy weapons detachment sent to hold the supply route at any cost, [PAWN_nameDef] never learned any cost was too high until the sky came down. What's left still carries the weight like it means something.</description>
+        <skillGains>
+            <Shooting>7</Shooting>
+            <Melee>4</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Marauder</li>
+        </spawnCategories>
+        <possessions />
+        <forcedTraits>
+            <Tough>0</Tough>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_Demolitions</defName>
+        <identifier>FCP_Backstory_MarkedMan_Demolitions</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Demolitions</title>
+        <titleShort>Marked Demolitions</titleShort>
+        <description>An NCR combat engineer who rigged the silo blast doors that were never supposed to open. [PAWN_nameDef] doesn't remember giving the order that fired the missiles, only the light afterward, and the years of storm since.</description>
+        <skillGains>
+            <Shooting>6</Shooting>
+            <Crafting>4</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Marauder</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_Berserker</defName>
+        <identifier>FCP_Backstory_MarkedMan_Berserker</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Berserker</title>
+        <titleShort>Marked Berserker</titleShort>
+        <description>Whatever discipline [PAWN_nameDef] marched under Caesar with burned away with everything else the Divide took. What's left charges into the storm swinging, and hasn't stopped since.</description>
+        <skillGains>
+            <Melee>10</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Ravager</li>
+        </spawnCategories>
+        <possessions />
+        <forcedTraits>
+            <Bloodlust>0</Bloodlust>
+        </forcedTraits>
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_Executioner</defName>
+        <identifier>FCP_Backstory_MarkedMan_Executioner</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Executioner</title>
+        <titleShort>Marked Executioner</titleShort>
+        <description>[PAWN_nameDef] carried out sentences for the Legion long before the Divide, and never really stopped. The blade changed hands a dozen times since, scavenged and re-scavenged, but the motion never left the arm.</description>
+        <skillGains>
+            <Melee>9</Melee>
+            <Crafting>2</Crafting>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Ravager</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_Runner</defName>
+        <identifier>FCP_Backstory_MarkedMan_Runner</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Runner</title>
+        <titleShort>Marked Runner</titleShort>
+        <description>A scout who covered ground between NCR and Legion lines alike, trading information both sides paid well for. [PAWN_nameDef] still moves light and fast, carrying whatever mismatched gear came to hand instead of anything that marked them as one side or the other.</description>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Melee>4</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Scout</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+    <BackstoryDef>
+        <defName>FCP_Backstory_MarkedMan_Smuggler</defName>
+        <identifier>FCP_Backstory_MarkedMan_Smuggler</identifier>
+        <slot>Adulthood</slot>
+        <title>Marked Smuggler</title>
+        <titleShort>Marked Smuggler</titleShort>
+        <description>[PAWN_nameDef] worked the Divide's supply route from the shadows, moving contraband past both armies for a cut of the profit. The profit's gone, the armies are gone, and all that's left is the shadow.</description>
+        <skillGains>
+            <Shooting>5</Shooting>
+            <Melee>3</Melee>
+        </skillGains>
+        <workDisables>None</workDisables>
+        <requiredWorkTags>None</requiredWorkTags>
+        <spawnCategories>
+            <li>FCP_Backstory_MarkedMan</li>
+            <li>FCP_Backstory_MarkedMen_Scout</li>
+        </spawnCategories>
+        <possessions />
+    </BackstoryDef>
+
+</Defs>

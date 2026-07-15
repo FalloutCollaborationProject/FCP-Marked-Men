@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Marked Men __________-->
+
+    <FactionDef ParentName="FactionBase">
+        <defName>FCP_Faction_MarkedMen</defName>
+        <label>Marked Men</label>
+        <description>The Marked Men are what became of the soldiers, couriers, and prisoners caught in the Divide when Ulysses' war brought the sky down. NCR and Legion alike were ghoulified by the storms that followed, and whatever loyalty they once carried burned away with everything else. They hold the Divide's ruins now, hostile to NCR, Legion, and everyone else fool enough to walk in.</description>
+        <pawnSingular>Marked Man</pawnSingular>
+        <pawnsPlural>Marked Men</pawnsPlural>
+        <categoryTag>Outlander</categoryTag>
+        <hidden>true</hidden>
+        <settlementGenerationWeight>0</settlementGenerationWeight>
+        <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <permanentEnemy>true</permanentEnemy>
+        <canSiege>true</canSiege>
+        <canStageAttacks>true</canStageAttacks>
+        <leaderTitle>Old Ghost</leaderTitle>
+        <factionIconPath MayRequire="Rick.FCP.NCR">World_Icon/NCR_Icon/FCP_NCR_Deserters_World_Icon</factionIconPath>
+        <techLevel>Industrial</techLevel>
+        <fixedName>The Marked Men</fixedName>
+        <colorSpectrum>
+            <li>(0.55, 0.6, 0.45)</li>
+        </colorSpectrum>
+        <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+
+        <!--__________ Biotech __________-->
+
+        <xenotypeSet>
+            <xenotypeChances>
+                <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+                <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+                <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+                <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+                <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+                <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+                <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+            </xenotypeChances>
+        </xenotypeSet>
+
+        <!--__________ Backstories __________-->
+
+        <backstoryFilters>
+            <li>
+                <categories>
+                    <li>FCP_Backstory_MarkedMan</li>
+                </categories>
+                <commonality>1</commonality>
+            </li>
+        </backstoryFilters>
+
+        <!--__________ Kinds __________-->
+
+        <caravanTraderKinds>
+        </caravanTraderKinds>
+
+        <visitorTraderKinds>
+        </visitorTraderKinds>
+
+        <baseTraderKinds>
+        </baseTraderKinds>
+
+        <allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+        <raidLootMaker>FCP_MarkedManRaidLootMaker</raidLootMaker>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(0,35)</li>
+                <li>(70, 50)</li>
+                <li>(700, 100)</li>
+                <li>(1300, 150)</li>
+                <li>(100000, 10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+
+        <!--__________ Group Makers __________-->
+
+        <pawnGroupMakers>
+
+            <li>
+                <kindDef>Combat</kindDef>
+                <disallowedStrategies>
+                    <li>EmergeFromWater</li>
+                </disallowedStrategies>
+                <options>
+                    <FCP_Pawnkind_MarkedMen_Hunter>10</FCP_Pawnkind_MarkedMen_Hunter>
+                    <FCP_Pawnkind_MarkedMen_Scout>10</FCP_Pawnkind_MarkedMen_Scout>
+                    <FCP_Pawnkind_MarkedMen_Ravager>8</FCP_Pawnkind_MarkedMen_Ravager>
+                    <FCP_Pawnkind_MarkedMen_Marauder>6</FCP_Pawnkind_MarkedMen_Marauder>
+                    <FCP_Pawnkind_MarkedMen_Marauder_Tribal>2</FCP_Pawnkind_MarkedMen_Marauder_Tribal>
+                </options>
+            </li>
+
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <FCP_Pawnkind_MarkedMen_Marauder_Tribal>2</FCP_Pawnkind_MarkedMen_Marauder_Tribal>
+                    <FCP_Pawnkind_MarkedMen_Marauder>4</FCP_Pawnkind_MarkedMen_Marauder>
+                    <FCP_Pawnkind_MarkedMen_Hunter>7</FCP_Pawnkind_MarkedMen_Hunter>
+                    <FCP_Pawnkind_MarkedMen_Scout>7</FCP_Pawnkind_MarkedMen_Scout>
+                    <FCP_Pawnkind_MarkedMen_Ravager>6</FCP_Pawnkind_MarkedMen_Ravager>
+                </options>
+            </li>
+
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <FCP_Pawnkind_MarkedMen_Marauder_Tribal>2</FCP_Pawnkind_MarkedMen_Marauder_Tribal>
+                    <FCP_Pawnkind_MarkedMen_Marauder>5</FCP_Pawnkind_MarkedMen_Marauder>
+                    <FCP_Pawnkind_MarkedMen_Hunter>8</FCP_Pawnkind_MarkedMen_Hunter>
+                    <FCP_Pawnkind_MarkedMen_Scout>8</FCP_Pawnkind_MarkedMen_Scout>
+                    <FCP_Pawnkind_MarkedMen_Ravager>7</FCP_Pawnkind_MarkedMen_Ravager>
+                </options>
+            </li>
+
+        </pawnGroupMakers>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <fixedLeaderKinds>
+            <li>FCP_Pawnkind_MarkedMen_Marauder_Tribal</li>
+        </fixedLeaderKinds>
+        <modExtensions Inherit="False">
+            <li Class="FCP.Factions.FactionExtension_FlavorOverride">
+                <newLabel>Marked Men</newLabel>
+            </li>
+            <li Class="FCP.Factions.FactionExtension_BannedArrivalModes">
+                <arrivalModes>
+                    <li>EdgeDrop</li>
+                    <li>EdgeDropGroups</li>
+                    <li>CenterDrop</li>
+                    <li>RandomDrop</li>
+                </arrivalModes>
+            </li>
+        </modExtensions>
+    </FactionDef>
+
+    <ThingSetMakerDef>
+        <defName>FCP_MarkedManRaidLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>Silver</li>
+                        <li>MedicineIndustrial</li>
+                        <li>ComponentIndustrial</li>
+                        <li>MealSurvivalPack</li>
+                        <li>Neutroamine</li>
+                        <li>Steel</li>
+                        <li>Cloth</li>
+                        <li>Chemfuel</li>
+                        <li MayRequire="Rick.FCP.Chems">FCP_Chem_Jet</li>
+                        <li MayRequire="Rick.FCP.Chems">FCP_Chem_Buffout</li>
+                        <li MayRequire="Rick.FCP.Chems">FCP_Chem_Stimpak</li>
+                        <li MayRequire="Rick.FCP.Chems">FCP_Chem_MedX</li>
+                        <li MayRequire="Rick.FCP.Currency">FCP_Currency_Caps</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+</Defs>

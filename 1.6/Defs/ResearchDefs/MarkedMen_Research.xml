@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Marked Men Research __________-->
+
+    <ResearchProjectDef>
+        <defName>FCP_Research_MarkedMen_Armor</defName>
+        <label>Marked men salvage armor</label>
+        <description>Study the patchwork armor stripped from the corpses of the Divide's marked men. Reconstructing their scrap-and-scavenge reinforcement techniques lets you rebuild ruined NCR and Legion gear into the same battered, radiation-scarred armor the marked men wear.</description>
+        <baseCost>900</baseCost>
+        <techLevel>Industrial</techLevel>
+        <researchViewX>3.00</researchViewX>
+        <researchViewY>3.00</researchViewY>
+        <tab>FCP_Faction_Research</tab>
+    </ResearchProjectDef>
+
+</Defs>

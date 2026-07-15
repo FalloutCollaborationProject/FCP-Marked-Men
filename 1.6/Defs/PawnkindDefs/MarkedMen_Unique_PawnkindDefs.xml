@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Unique Character Base __________-->
+
+    <PawnKindDef Name="FCP_MarkedMen_UniqueCharacterBase" ParentName="FCP_MarkedManKindBase" Abstract="True">
+        <showInDebugSpawner>false</showInDebugSpawner>
+        <apparelMoney>9999</apparelMoney>
+        <gearHealthRange>0.6~1.0</gearHealthRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <weaponMoney>9999</weaponMoney>
+        <initialWillRange>10~30</initialWillRange>
+        <initialResistanceRange>10~30</initialResistanceRange>
+    </PawnKindDef>
+
+    <!-- Blister -->
+
+    <PawnKindDef ParentName="FCP_MarkedMen_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_MarkedMen_Blister</defName>
+        <label>Blister</label>
+        <combatPower>140</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Marked_Patrol_Armor</li>
+            <li>FCP_Apparel_NCR_Veteran_Ranger_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Flame_Weapon</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_MarkedMan_HeavyGunner</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Beast -->
+
+    <PawnKindDef ParentName="FCP_MarkedMen_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_MarkedMen_Beast</defName>
+        <label>Beast</label>
+        <combatPower>150</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Marked_Patrol_Armor</li>
+            <li>FCP_Apparel_NCR_Veteran_Ranger_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shoulder_Mounted_MG</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_MarkedMan_HeavyGunner</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Bonesaw -->
+
+    <PawnKindDef ParentName="FCP_MarkedMen_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_MarkedMen_Bonesaw</defName>
+        <label>Bonesaw</label>
+        <combatPower>125</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Marked_Scout_Armor</li>
+            <li>FCP_Apparel_Legion_Veteran_Decanus_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Heavy</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_MarkedMan_Berserker</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Blade -->
+
+    <PawnKindDef ParentName="FCP_MarkedMen_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_MarkedMen_Blade</defName>
+        <label>Blade</label>
+        <combatPower>135</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Marked_Scout_Armor</li>
+            <li>FCP_Apparel_Legion_Veteran_Decanus_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Advanced</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_MarkedMan_Executioner</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Gaius Magnus -->
+
+    <PawnKindDef ParentName="FCP_MarkedMen_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_MarkedMen_Gaius_Magnus</defName>
+        <label>Gaius Magnus</label>
+        <combatPower>170</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_Legion_Prime_Armor</li>
+            <li>FCP_Apparel_Legion_Prime_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Heavy</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Advanced</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_MarkedMan_Legion_Veteran</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Colonel Royez -->
+
+    <PawnKindDef ParentName="FCP_MarkedMen_UniqueCharacterBase">
+        <defName>FCP_Unique_Pawnkind_MarkedMen_Colonel_Royez</defName>
+        <label>Colonel Royez</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>200</combatPower>
+        <apparelRequired>
+            <li>FCP_Apparel_NCR_Salvaged_Power_Armor</li>
+            <li>FCP_Apparel_NCR_Salvaged_Power_Armor_Helmet</li>
+        </apparelRequired>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Minigun_FO3</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_MarkedMan_NCR_Ranger</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+</Defs>

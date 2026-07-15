@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+    <!-- About Information -->
+
+    <packageId>Rick.FCP.MarkedMen</packageId>
+    <author>Rick</author>
+    <name>FCP - Marked Men</name>
+    <description>The Fallout Collaboration Project Presents: Marked Men, a hostile ghoul faction born from the ruin of the Divide. Once NCR and Legion soldiers, they were twisted by the storms into something that no longer recognizes either banner.</description>
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+    <modDependencies>
+        <li>
+            <packageId>ludeon.rimworld.biotech</packageId>
+            <displayName>Biotech</displayName>
+        </li>
+        <li>
+            <packageId>Rick.FCP.Core.Tools</packageId>
+            <displayName>FCP - Tools</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Tools</downloadUrl>
+        </li>
+        <li>
+            <packageId>Rick.FCP.Ghouls</packageId>
+            <displayName>FCP - Ghouls</displayName>
+        </li>
+        <li>
+            <packageId>Rick.FCP.NCR</packageId>
+            <displayName>FCP - NCR</displayName>
+        </li>
+        <li>
+            <packageId>Rick.FCP.Legion</packageId>
+            <displayName>FCP - Caesar's Legion</displayName>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>ludeon.rimworld.biotech</li>
+        <li>Rick.FCP.Core.Tools</li>
+        <li>Rick.FCP.Ghouls</li>
+        <li>Rick.FCP.NCR</li>
+        <li>Rick.FCP.Legion</li>
+        <li>Rick.FCP.MeleeWeapons</li>
+        <li>Rick.FCP.BallisticWeapons</li>
+        <li>Rick.FCP.EnergyWeapons</li>
+        <li>Rick.FCP.ExplosiveWeapons</li>
+        <li>Rick.FCP.Chems</li>
+        <li>Rick.FCP.Currency</li>
+    </loadAfter>
+
+</ModMetaData>

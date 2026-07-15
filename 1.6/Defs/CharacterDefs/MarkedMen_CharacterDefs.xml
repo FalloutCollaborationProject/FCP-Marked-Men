@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ The Divide (Fallout: New Vegas - Lonesome Road) __________-->
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_MarkedMen_Blister</defName>
+        <pawnKind>FCP_Unique_Pawnkind_MarkedMen_Blister</pawnKind>
+        <faction>FCP_Faction_MarkedMen</faction>
+        <xenotype MayRequire="Rick.FCP.Ghouls">FCP_Xenotype_MarkedMan</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Blister</firstName>
+                <gender>Male</gender>
+                <age>58</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(20, 20, 20)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef MayRequire="Rick.FCP.Ghouls">FCP_Male_Ghoul_Average_Normal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <li Class="FCP.Core.CharacterUniqueItemDefinition" MayRequire="Rick.FCP.EnergyWeapons">
+                <uniqueItem>FCP_Gun_Flamer_MkI</uniqueItem>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_MarkedMen_Beast</defName>
+        <pawnKind>FCP_Unique_Pawnkind_MarkedMen_Beast</pawnKind>
+        <faction>FCP_Faction_MarkedMen</faction>
+        <xenotype MayRequire="Rick.FCP.Ghouls">FCP_Xenotype_MarkedMan</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Beast</firstName>
+                <gender>Male</gender>
+                <age>52</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(20, 20, 20)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef MayRequire="Rick.FCP.Ghouls">FCP_Male_Ghoul_Average_Normal</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+            <li Class="FCP.Core.CharacterUniqueItemDefinition" MayRequire="Rick.FCP.BallisticWeapons">
+                <uniqueItem>FCP_Gun_Shoulder_Mounted_MG</uniqueItem>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_MarkedMen_Bonesaw</defName>
+        <pawnKind>FCP_Unique_Pawnkind_MarkedMen_Bonesaw</pawnKind>
+        <faction>FCP_Faction_MarkedMen</faction>
+        <xenotype MayRequire="Rick.FCP.Ghouls">FCP_Xenotype_MarkedMan</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Bonesaw</firstName>
+                <gender>Male</gender>
+                <age>49</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(20, 20, 20)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef MayRequire="Rick.FCP.Ghouls">FCP_Male_Ghoul_Average_Normal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <li Class="FCP.Core.CharacterUniqueItemDefinition" MayRequire="Rick.FCP.MeleeWeapons">
+                <uniqueItem>FCP_Melee_Chainsaw</uniqueItem>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_MarkedMen_Blade</defName>
+        <pawnKind>FCP_Unique_Pawnkind_MarkedMen_Blade</pawnKind>
+        <faction>FCP_Faction_MarkedMen</faction>
+        <xenotype MayRequire="Rick.FCP.Ghouls">FCP_Xenotype_MarkedMan</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Blade</firstName>
+                <gender>Male</gender>
+                <age>47</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(20, 20, 20)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef MayRequire="Rick.FCP.Ghouls">FCP_Male_Ghoul_Average_Normal</headTypeDef>
+                <bodyTypeDef>Thin</bodyTypeDef>
+            </li>
+            <li Class="FCP.Core.CharacterUniqueItemDefinition" MayRequire="Rick.FCP.MeleeWeapons">
+                <uniqueItem>FCP_Melee_Shishkebab</uniqueItem>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_MarkedMen_Gaius_Magnus</defName>
+        <pawnKind>FCP_Unique_Pawnkind_MarkedMen_Gaius_Magnus</pawnKind>
+        <faction>FCP_Faction_MarkedMen</faction>
+        <xenotype MayRequire="Rick.FCP.Ghouls">FCP_Xenotype_MarkedMan</xenotype>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Gaius</firstName>
+                <lastName>Magnus</lastName>
+                <gender>Male</gender>
+                <age>44</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(20, 20, 20)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef MayRequire="Rick.FCP.Ghouls">FCP_Male_Ghoul_Average_Normal</headTypeDef>
+                <bodyTypeDef>Hulk</bodyTypeDef>
+            </li>
+            <li Class="FCP.Core.CharacterUniqueItemDefinition" MayRequire="Rick.FCP.MeleeWeapons">
+                <uniqueItem>FCP_Melee_Super_Sledge</uniqueItem>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+    <FCP.Core.CharacterDef>
+        <defName>FCP_Character_MarkedMen_Colonel_Royez</defName>
+        <pawnKind>FCP_Unique_Pawnkind_MarkedMen_Colonel_Royez</pawnKind>
+        <faction>FCP_Faction_MarkedMen</faction>
+        <xenotype MayRequire="Rick.FCP.Ghouls">FCP_Xenotype_MarkedMan</xenotype>
+        <roles>
+            <li Class="FCP.Core.CharacterRole_FactionLeader">
+                <seniority>1000</seniority>
+            </li>
+        </roles>
+        <definitions>
+            <li Class="FCP.Core.CharacterStoryDefinition">
+                <firstName>Royez</firstName>
+                <gender>Male</gender>
+                <age>55</age>
+            </li>
+            <li Class="FCP.Core.CharacterAppearanceDefinition">
+                <hairColor>(20, 20, 20)</hairColor>
+                <hairDef>Bald</hairDef>
+                <beardDef>NoBeard</beardDef>
+                <headTypeDef MayRequire="Rick.FCP.Ghouls">FCP_Male_Ghoul_Average_Normal</headTypeDef>
+                <bodyTypeDef>Male</bodyTypeDef>
+            </li>
+            <li Class="FCP.Core.CharacterUniqueItemDefinition" MayRequire="Rick.FCP.BallisticWeapons">
+                <uniqueItem>FCP_Gun_Minigun</uniqueItem>
+            </li>
+        </definitions>
+    </FCP.Core.CharacterDef>
+
+</Defs>

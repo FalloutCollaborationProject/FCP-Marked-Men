@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--__________ Marked Man Base __________-->
+
+    <PawnKindDef Name="FCP_MarkedManKindBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionDef>FCP_Faction_MarkedMen</defaultFactionDef>
+        <xenotypeSet>
+            <xenotypeChances>
+                <FCP_Xenotype_MarkedMan MayRequire="Rick.FCP.Ghouls">1</FCP_Xenotype_MarkedMan>
+            </xenotypeChances>
+        </xenotypeSet>
+        <useFactionXenotypes>false</useFactionXenotypes>
+        <maxGenerationAge>70</maxGenerationAge>
+        <chemicalAddictionChance>0.2</chemicalAddictionChance>
+        <invNutrition>2.7</invNutrition>
+        <invFoodDef>MealSurvivalPack</invFoodDef>
+        <gearHealthRange>0.35~0.75</gearHealthRange>
+        <requiredWorkTags>
+            <li>Violent</li>
+        </requiredWorkTags>
+        <initialResistanceRange>10~30</initialResistanceRange>
+        <initialWillRange>10~30</initialWillRange>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_MarkedMan</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    </PawnKindDef>
+
+    <!-- Marked Men Hunter - ex-NCR troopers, ranged specialists -->
+
+    <PawnKindDef ParentName="FCP_MarkedManKindBase">
+        <defName>FCP_Pawnkind_MarkedMen_Hunter</defName>
+        <label>marked men hunter</label>
+        <combatPower>90</combatPower>
+        <apparelMoney>0~100</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Marked_Trooper_Armor</li>
+            <li>FCP_Apparel_NCR_Trooper_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>999</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Trail_Carbine</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Carbine</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_DKS_501_Sniper_Rifle</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Brush_Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Marksman_Carbine</li>
+            <li>FCP_NCR_Anti_Material_Rifle</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_MarkedMen_Hunter</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Marked Men Marauder - ex-NCR rangers, heavy weapons -->
+
+    <PawnKindDef ParentName="FCP_MarkedManKindBase">
+        <defName>FCP_Pawnkind_MarkedMen_Marauder</defName>
+        <label>marked men marauder</label>
+        <combatPower>150</combatPower>
+        <apparelMoney>0~100</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Marked_Patrol_Armor</li>
+            <li>FCP_Apparel_NCR_Veteran_Ranger_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>999</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.ExplosiveWeapons">FCP_Missile_Launcher</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Light_Machine_Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shoulder_Mounted_MG</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Flame_Weapon</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Plasma_Weapon</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_MarkedMen_Marauder</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Marked Men Marauder (Tribal-armored) - rarer, leader-tier; tribal armor is never crafted, only found -->
+
+    <PawnKindDef ParentName="FCP_MarkedManKindBase">
+        <defName>FCP_Pawnkind_MarkedMen_Marauder_Tribal</defName>
+        <label>marked men marauder</label>
+        <factionLeader>true</factionLeader>
+        <combatPower>220</combatPower>
+        <apparelMoney>0~100</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Marked_Tribal_Armor</li>
+            <li>FCP_Apparel_Marked_Tribal_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>999</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.ExplosiveWeapons">FCP_Missile_Launcher</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Light_Machine_Gun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Shoulder_Mounted_MG</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Flame_Weapon</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Laser_Weapon</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Heavy_Plasma_Weapon</li>
+        </weaponTags>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_MarkedMen_Marauder</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Marked Men Ravager - melee specialists, ex-Legion -->
+
+    <PawnKindDef ParentName="FCP_MarkedManKindBase">
+        <defName>FCP_Pawnkind_MarkedMen_Ravager</defName>
+        <label>marked men ravager</label>
+        <combatPower>110</combatPower>
+        <apparelMoney>0~100</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Marked_Scout_Armor</li>
+            <li>FCP_Apparel_Legion_Veteran_Decanus_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>300~600</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Advanced</li>
+            <li MayRequire="Rick.FCP.MeleeWeapons">FCP_Melee_Makeshift</li>
+        </weaponTags>
+        <inventoryOptions>
+            <skipChance>0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef MayRequire="Rick.FCP.ExplosiveWeapons">FCP_Grenade_Molotov_Cocktail</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_MarkedMen_Ravager</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!-- Marked Men Scout - firearms and grenades generalists -->
+
+    <PawnKindDef ParentName="FCP_MarkedManKindBase">
+        <defName>FCP_Pawnkind_MarkedMen_Scout</defName>
+        <label>marked men scout</label>
+        <combatPower>85</combatPower>
+        <apparelMoney>0~100</apparelMoney>
+        <apparelRequired>
+            <li>FCP_Apparel_Marked_Scout_Armor</li>
+            <li>FCP_Apparel_NCR_Goggles_Helmet</li>
+        </apparelRequired>
+        <weaponMoney>999</weaponMoney>
+        <weaponTags>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_127mm_Pistol</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Hunting_Shotgun</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Hunting_Revolver</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_127mm_SMG</li>
+            <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Riot_Shotgun</li>
+            <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Plasma_Weapon</li>
+        </weaponTags>
+        <inventoryOptions>
+            <skipChance>0</skipChance>
+            <subOptionsChooseOne>
+                <li>
+                    <thingDef MayRequire="Rick.FCP.ExplosiveWeapons">FCP_Grenade_Fragmentation</thingDef>
+                    <countRange>1~2</countRange>
+                </li>
+            </subOptionsChooseOne>
+        </inventoryOptions>
+        <backstoryFiltersOverride>
+            <li>
+                <categoriesChildhood>
+                    <li>FCP_Backstory_Wastelander_Child</li>
+                </categoriesChildhood>
+                <categoriesAdulthood>
+                    <li>FCP_Backstory_MarkedMen_Scout</li>
+                </categoriesAdulthood>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+</Defs>
