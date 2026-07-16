@@ -20,6 +20,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Hunter</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -40,6 +42,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Marauder</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
         <forcedTraits>
             <Tough>0</Tough>
@@ -63,6 +67,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Ravager</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -83,6 +89,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Ravager</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
         <forcedTraits>
             <Bloodlust>0</Bloodlust>
@@ -106,6 +114,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Hunter</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -126,6 +136,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Marauder</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -146,6 +158,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Scout</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -166,6 +180,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Scout</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -185,6 +201,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Hunter</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -204,6 +222,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Hunter</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -224,6 +244,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Marauder</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
         <forcedTraits>
             <Tough>0</Tough>
@@ -247,6 +269,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Marauder</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -266,6 +290,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Ravager</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
         <forcedTraits>
             <Bloodlust>0</Bloodlust>
@@ -289,6 +315,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Ravager</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -309,6 +337,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Scout</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 
@@ -329,6 +359,8 @@
             <li>FCP_Backstory_MarkedMan</li>
             <li>FCP_Backstory_MarkedMen_Scout</li>
         </spawnCategories>
+        <bodyTypeFemale>Female</bodyTypeFemale>
+        <bodyTypeMale>Male</bodyTypeMale>
         <possessions />
     </BackstoryDef>
 

@@ -19,4 +19,16 @@
         </statOffsets>
     </GeneDef>
 
+    <!-- Divide-Marked Skin -->
+
+    <GeneDef ParentName="GhoulSkinBase" MayRequire="Rick.FCP.Ghouls">
+        <defName>FCP_Gene_MarkedMan_Skin</defName>
+        <label>divide-marked skin</label>
+        <labelShortAdj>marked</labelShortAdj>
+        <description>Carriers bear the raw, blood-red flesh of those left too long in the Divide's fallout, burned deep enough that no scar tissue ever fully closed over it.</description>
+        <selectionWeight>1</selectionWeight>
+        <skinColorOverride>(133, 40, 32)</skinColorOverride>
+        <tattoosVisible>false</tattoosVisible>
+    </GeneDef>
+
 </Defs>

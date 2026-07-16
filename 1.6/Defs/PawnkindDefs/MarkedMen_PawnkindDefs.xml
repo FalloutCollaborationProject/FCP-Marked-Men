@@ -33,6 +33,9 @@
             </li>
         </backstoryFiltersOverride>
         <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <apparelTags>
+            <li>FCP_MarkedMen_Apparel</li>
+        </apparelTags>
     </PawnKindDef>
 
     <!-- Marked Men Hunter - ex-NCR troopers, ranged specialists -->
@@ -46,7 +49,7 @@
             <li>FCP_Apparel_Marked_Trooper_Armor</li>
             <li>FCP_Apparel_NCR_Trooper_Helmet</li>
         </apparelRequired>
-        <weaponMoney>999</weaponMoney>
+        <weaponMoney>400~900</weaponMoney>
         <weaponTags>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Trail_Carbine</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Assault_Carbine</li>

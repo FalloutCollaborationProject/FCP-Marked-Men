@@ -23,14 +23,17 @@
         <li>
             <packageId>Rick.FCP.Ghouls</packageId>
             <displayName>FCP - Ghouls</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Ghouls</downloadUrl>
         </li>
         <li>
             <packageId>Rick.FCP.NCR</packageId>
             <displayName>FCP - NCR</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-NCR</downloadUrl>
         </li>
         <li>
             <packageId>Rick.FCP.Legion</packageId>
             <displayName>FCP - Caesar's Legion</displayName>
+            <downloadUrl>https://github.com/FalloutCollaborationProject/FCP-Caesars-Legion</downloadUrl>
         </li>
     </modDependencies>
     <loadAfter>

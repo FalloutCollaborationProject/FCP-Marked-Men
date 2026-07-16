@@ -33,7 +33,7 @@
                     <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_MarkedMan_HeavyGunner</li>
+                    <li>FCP_Backstory_MarkedMen_Marauder</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -58,7 +58,7 @@
                     <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_MarkedMan_HeavyGunner</li>
+                    <li>FCP_Backstory_MarkedMen_Marauder</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -83,7 +83,7 @@
                     <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_MarkedMan_Berserker</li>
+                    <li>FCP_Backstory_MarkedMen_Ravager</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -108,7 +108,7 @@
                     <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_MarkedMan_Executioner</li>
+                    <li>FCP_Backstory_MarkedMen_Ravager</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -134,7 +134,7 @@
                     <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_MarkedMan_Legion_Veteran</li>
+                    <li>FCP_Backstory_MarkedMen_Ravager</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>
@@ -160,7 +160,7 @@
                     <li>FCP_Backstory_Wastelander_Child</li>
                 </categoriesChildhood>
                 <categoriesAdulthood>
-                    <li>FCP_Backstory_MarkedMan_NCR_Ranger</li>
+                    <li>FCP_Backstory_MarkedMen_Marauder</li>
                 </categoriesAdulthood>
             </li>
         </backstoryFiltersOverride>

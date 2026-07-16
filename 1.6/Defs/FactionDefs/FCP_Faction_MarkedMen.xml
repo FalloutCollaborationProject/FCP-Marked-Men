@@ -10,20 +10,36 @@
         <pawnSingular>Marked Man</pawnSingular>
         <pawnsPlural>Marked Men</pawnsPlural>
         <categoryTag>Outlander</categoryTag>
-        <hidden>true</hidden>
-        <settlementGenerationWeight>0</settlementGenerationWeight>
+        <settlementGenerationWeight>0.02</settlementGenerationWeight>
         <requiredCountAtGameStart>1</requiredCountAtGameStart>
+        <maxCountAtGameStart>1</maxCountAtGameStart>
+        <naturalEnemy>true</naturalEnemy>
         <permanentEnemy>true</permanentEnemy>
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>Old Ghost</leaderTitle>
         <factionIconPath MayRequire="Rick.FCP.NCR">World_Icon/NCR_Icon/FCP_NCR_Deserters_World_Icon</factionIconPath>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
         <techLevel>Industrial</techLevel>
         <fixedName>The Marked Men</fixedName>
         <colorSpectrum>
             <li>(0.55, 0.6, 0.45)</li>
         </colorSpectrum>
         <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+
+        <!--__________ Ideology __________-->
+
+        <fixedIdeo>true</fixedIdeo>
+        <ideoName>The Divide's Wrath</ideoName>
+        <ideoDescription>Whatever the Marked Men believed before the Divide burned is gone with everything else they used to be. What's left is a single, radiation-scarred certainty: the world already ended once, and anyone still walking through the wreckage deserves whatever comes next.</ideoDescription>
+        <forcedMemes>
+            <!-- Structure -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Ideological</li>
+            <!-- Memes -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+            <li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+        </forcedMemes>
+        <requiredPreceptsOnly>true</requiredPreceptsOnly>
 
         <!--__________ Biotech __________-->
 
@@ -129,6 +145,35 @@
                     <li>CenterDrop</li>
                     <li>RandomDrop</li>
                 </arrivalModes>
+            </li>
+            <li Class="FCP.Factions.FactionExtension_FixedIdeo" MayRequire="Ludeon.RimWorld.Ideology">
+                <ideoIconDef>Skull</ideoIconDef>
+                <ideoColorDef>DarkRed</ideoColorDef>
+                <memberName>Marked Man</memberName>
+                <adjective>Marked Men</adjective>
+                <roleOverrides>
+                    <li>
+                        <preceptDef>IdeoRole_Leader</preceptDef>
+                        <newName>Old Ghost</newName>
+                        <disableApparelRequirements>true</disableApparelRequirements>
+                    </li>
+                </roleOverrides>
+            </li>
+            <!-- Exactly one settlement, the Divide, extreme desert only -->
+            <li Class="FCP.Factions.FactionExtension_SettlementControl">
+                <maxSettlements>1</maxSettlements>
+                <searchRadius>500</searchRadius>
+                <allowedBiomes>
+                    <li>ExtremeDesert</li>
+                </allowedBiomes>
+                <namedSettlements>
+                    <li>
+                        <name>The Divide</name>
+                        <allowedBiomes>
+                            <li>ExtremeDesert</li>
+                        </allowedBiomes>
+                    </li>
+                </namedSettlements>
             </li>
         </modExtensions>
     </FactionDef>

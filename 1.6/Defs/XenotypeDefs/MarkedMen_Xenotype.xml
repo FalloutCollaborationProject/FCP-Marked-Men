@@ -14,11 +14,7 @@
             <li>Sterile</li>
             <li>Beard_NoBeardOnly</li>
             <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_ToxicHealing</li>
-            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_Ghoul_Skin_Green</li>
-            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_Ghoul_Skin_Peach</li>
-            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_Ghoul_Skin_Yellow</li>
-            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_Ghoul_Skin_Pink</li>
-            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_Ghoul_Skin</li>
+            <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_MarkedMan_Skin</li>
             <li MayRequire="Rick.FCP.Ghouls">FCP_Gene_Ghoul_LongLived</li>
             <li>FCP_Gene_MarkedMan_Regeneration</li>
         </genes>
