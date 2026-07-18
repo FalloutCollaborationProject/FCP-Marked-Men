@@ -18,7 +18,7 @@
         <canSiege>true</canSiege>
         <canStageAttacks>true</canStageAttacks>
         <leaderTitle>Old Ghost</leaderTitle>
-        <factionIconPath MayRequire="Rick.FCP.NCR">World_Icon/NCR_Icon/FCP_NCR_Deserters_World_Icon</factionIconPath>
+        <factionIconPath>World_Icon/FCP_Marked_Men_World_Icon</factionIconPath>
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
         <techLevel>Industrial</techLevel>
         <fixedName>The Marked Men</fixedName>
@@ -93,7 +93,7 @@
 
         <pawnGroupMakers>
 
-            <li>
+            <li Class="FCP.Core.GroupMakerWithCustomChar">
                 <kindDef>Combat</kindDef>
                 <disallowedStrategies>
                     <li>EmergeFromWater</li>
@@ -105,6 +105,14 @@
                     <FCP_Pawnkind_MarkedMen_Marauder>6</FCP_Pawnkind_MarkedMen_Marauder>
                     <FCP_Pawnkind_MarkedMen_Marauder_Tribal>2</FCP_Pawnkind_MarkedMen_Marauder_Tribal>
                 </options>
+                <characterDefs>
+                    <li>FCP_Character_MarkedMen_Blister</li>
+                    <li>FCP_Character_MarkedMen_Beast</li>
+                    <li>FCP_Character_MarkedMen_Bonesaw</li>
+                    <li>FCP_Character_MarkedMen_Blade</li>
+                    <li>FCP_Character_MarkedMen_Gaius_Magnus</li>
+                </characterDefs>
+                <characterChance>0.25</characterChance>
             </li>
 
             <li>
