@@ -61,6 +61,7 @@
             <li>
                 <categories>
                     <li>FCP_Backstory_MarkedMan</li>
+                    <li>FCP_Backstory_Wastelander_Child</li>
                 </categories>
                 <commonality>1</commonality>
             </li>
@@ -140,7 +141,7 @@
         </pawnGroupMakers>
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
         <fixedLeaderKinds>
-            <li>FCP_Pawnkind_MarkedMen_Marauder_Tribal</li>
+            <li>FCP_Unique_Pawnkind_MarkedMen_Colonel_Royez</li>
         </fixedLeaderKinds>
         <modExtensions Inherit="False">
             <li Class="FCP.Factions.FactionExtension_FlavorOverride">
