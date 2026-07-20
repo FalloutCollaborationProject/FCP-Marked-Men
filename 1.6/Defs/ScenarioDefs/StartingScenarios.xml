@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ScenarioDef ParentName="ScenarioBase">
+        <defName>FCP_Scenario_MarkedMen_Exile</defName>
+        <label>Exiles of the Divide</label>
+        <description>The Divide chewed up everyone it touched, ghoul and human alike. Your small band decided they'd rather take their chances somewhere the sky isn't still falling. Whether the rest of the wasteland will accept that is another matter.</description>
+        <scenario>
+            <summary>A handful of Marked Men leave the Divide behind to try surviving somewhere new.</summary>
+            <parts>
+
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
+                    <def>ConfigurePawnsKindDefs</def>
+                    <pawnChoiceCount>8</pawnChoiceCount>
+                    <leftBehindPawnKind>FCP_Pawnkind_MarkedMen_Hunter</leftBehindPawnKind>
+                    <kindCounts>
+                        <li>
+                            <kindDef>FCP_Pawnkind_MarkedMen_Scout</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>true</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_MarkedMen_Hunter</kindDef>
+                            <count>2</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                        <li>
+                            <kindDef>FCP_Pawnkind_MarkedMen_Ravager</kindDef>
+                            <count>1</count>
+                            <requiredAtStart>false</requiredAtStart>
+                        </li>
+                    </kindCounts>
+                </li>
+
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>DropPods</method>
+                    <visible>false</visible>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Currency_Caps</thingDef>
+                    <count>80</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Apparel_Marked_Trooper_Armor</thingDef>
+                    <count>5</count>
+                </li>
+                <li Class="ScenPart_StartingThing_Defined" MayRequire="Rick.FCP.BallisticWeapons">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>FCP_Gun_Trail_Carbine</thingDef>
+                    <count>5</count>
+                </li>
+
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>It is the year [FCP_Year]. Nobody leaves the Divide clean - not in body, not in mind. But staying meant waiting for the storms or the courier's ghosts to finish what the bombs started, and you'd all had enough of waiting.\n\nOut here the ground doesn't scream when the wind picks up. That'll have to be enough for now.</text>
+                </li>
+
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+</Defs>
