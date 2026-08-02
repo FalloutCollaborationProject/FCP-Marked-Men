@@ -178,6 +178,11 @@
                 <namedSettlements>
                     <li>
                         <name>The Divide</name>
+                        <mapGenerator>FCP_MapGen_Canyon</mapGenerator>
+                        <forcedMapSize>(300, 1, 300)</forcedMapSize>
+                        <preferredHilliness>
+                            <li>Mountainous</li>
+                        </preferredHilliness>
                         <allowedBiomes>
                             <li>ExtremeDesert</li>
                         </allowedBiomes>
