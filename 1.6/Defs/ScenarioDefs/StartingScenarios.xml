@@ -9,6 +9,10 @@
             <summary>A handful of Marked Men leave the Divide behind to try surviving somewhere new.</summary>
             <parts>
 
+                <li Class="FCP.Core.GOAT.ScenPart_GOATExam">
+                    <def>FCP_GOATExam</def>
+                </li>
+
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_KindDefs">
                     <def>ConfigurePawnsKindDefs</def>
                     <pawnChoiceCount>8</pawnChoiceCount>
@@ -54,8 +58,9 @@
                     <count>5</count>
                 </li>
 
-                <li Class="ScenPart_GameStartDialog">
+                <li Class="FCP.Core.ScenPart_TerminalStartDialog">
                     <def>GameStartDialog</def>
+                    <title>Out of the Divide</title>
                     <text>It is the year [FCP_Year]. Nobody leaves the Divide clean - not in body, not in mind. But staying meant waiting for the storms or the courier's ghosts to finish what the bombs started, and you'd all had enough of waiting.\n\nOut here the ground doesn't scream when the wind picks up. That'll have to be enough for now.</text>
                 </li>
 
