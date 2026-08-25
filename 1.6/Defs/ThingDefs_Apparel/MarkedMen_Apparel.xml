@@ -156,7 +156,7 @@
     <ThingDef ParentName="FCP_Armor_Machineable_Base">
         <defName>FCP_Apparel_Marked_Tribal_Armor</defName>
         <label>marked tribal armor</label>
-        <description>Not NCR, not Legion — this armor was built from nothing but the Divide itself. Layered hide, roadsign scrap, and rebar plating lashed together by hands that no longer remember which army they used to answer to. There is no clean version of this armor to reclaim; it was never anything but wreckage.</description>
+        <description>Not NCR, not Legion. This armor was built from nothing but the Divide itself. Layered hide, roadsign scrap, and rebar plating lashed together by hands that no longer remember which army they used to answer to. There is no clean version of this armor to reclaim; it was never anything but wreckage.</description>
         <thingSetMakerTags Inherit="False" />
         <graphicData>
             <texPath>Armor/Marked_Tribal_Armor/FCP_Marked_Tribal_Armor</texPath>
