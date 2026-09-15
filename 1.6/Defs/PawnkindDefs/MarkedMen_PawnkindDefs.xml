@@ -56,7 +56,7 @@
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_DKS_501_Sniper_Rifle</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Brush_Gun</li>
             <li MayRequire="Rick.FCP.BallisticWeapons">FCP_Marksman_Carbine</li>
-            <li>FCP_NCR_Anti_Material_Rifle</li>
+            <li>FCP_Anti_Material_Rifle</li>
             <li MayRequire="Rick.FCP.EnergyWeapons">FCP_Laser_Weapon</li>
         </weaponTags>
         <backstoryFiltersOverride>
