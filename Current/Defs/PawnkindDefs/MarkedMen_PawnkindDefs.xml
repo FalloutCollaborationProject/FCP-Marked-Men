@@ -103,7 +103,6 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
 
-    <!-- Marked Men Marauder (Tribal-armored) - rarer, leader-tier; tribal armor is never crafted, only found -->
 
     <PawnKindDef ParentName="FCP_MarkedManKindBase">
         <defName>FCP_Pawnkind_MarkedMen_Marauder_Tribal</defName>

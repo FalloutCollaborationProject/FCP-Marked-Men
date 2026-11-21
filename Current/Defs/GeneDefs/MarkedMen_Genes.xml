@@ -2,7 +2,6 @@
 <Defs>
 
     <!--__________ Marked Men Genes __________-->
-    <!-- Reflects the wiki's account of an enhanced regenerative ability beyond ordinary ghoulification, fueled by proximity to the Divide's radiation, and their unusually large HP pool relative to other wasteland enemies. -->
 
     <GeneDef>
         <defName>FCP_Gene_MarkedMan_Regeneration</defName>
