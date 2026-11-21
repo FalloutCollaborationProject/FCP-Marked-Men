@@ -168,7 +168,6 @@
                     </li>
                 </roleOverrides>
             </li>
-            <!-- Exactly one settlement, the Divide, extreme desert only -->
             <li Class="FCP.Factions.FactionExtension_SettlementControl">
                 <maxSettlements>1</maxSettlements>
                 <searchRadius>500</searchRadius>

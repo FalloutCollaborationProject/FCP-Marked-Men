@@ -3,7 +3,7 @@
 
     <!--__________ Marked Men Armor Recipes __________-->
 
-    <!-- Marked Trooper Armor - from any ruined NCR trooper outfit -->
+    <!-- Marked Trooper Armor -->
 
     <RecipeDef>
         <defName>FCP_Recipe_Craft_Marked_Trooper_Armor</defName>
@@ -50,7 +50,7 @@
         </recipeUsers>
     </RecipeDef>
 
-    <!-- Marked Patrol Armor - from NCR Ranger Patrol Armor specifically -->
+    <!-- Marked Patrol Armor -->
 
     <RecipeDef>
         <defName>FCP_Recipe_Craft_Marked_Patrol_Armor</defName>
@@ -92,7 +92,7 @@
         </recipeUsers>
     </RecipeDef>
 
-    <!-- Marked Scout Armor - from any Legion armor tier -->
+    <!-- Marked Scout Armor -->
 
     <RecipeDef>
         <defName>FCP_Recipe_Craft_Marked_Scout_Armor</defName>

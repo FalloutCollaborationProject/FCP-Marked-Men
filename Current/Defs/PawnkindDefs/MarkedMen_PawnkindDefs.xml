@@ -38,7 +38,7 @@
         </apparelTags>
     </PawnKindDef>
 
-    <!-- Marked Men Hunter - ex-NCR troopers, ranged specialists -->
+    <!-- Marked Men Hunter -->
 
     <PawnKindDef ParentName="FCP_MarkedManKindBase">
         <defName>FCP_Pawnkind_MarkedMen_Hunter</defName>
@@ -71,7 +71,7 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
 
-    <!-- Marked Men Marauder - ex-NCR rangers, heavy weapons -->
+    <!-- Marked Men Marauder -->
 
     <PawnKindDef ParentName="FCP_MarkedManKindBase">
         <defName>FCP_Pawnkind_MarkedMen_Marauder</defName>
@@ -135,7 +135,7 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
 
-    <!-- Marked Men Ravager - melee specialists, ex-Legion -->
+    <!-- Marked Men Ravager -->
 
     <PawnKindDef ParentName="FCP_MarkedManKindBase">
         <defName>FCP_Pawnkind_MarkedMen_Ravager</defName>
@@ -172,7 +172,7 @@
         </backstoryFiltersOverride>
     </PawnKindDef>
 
-    <!-- Marked Men Scout - firearms and grenades generalists -->
+    <!-- Marked Men Scout -->
 
     <PawnKindDef ParentName="FCP_MarkedManKindBase">
         <defName>FCP_Pawnkind_MarkedMen_Scout</defName>
